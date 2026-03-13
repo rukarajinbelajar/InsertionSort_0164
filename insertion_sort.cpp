@@ -17,9 +17,9 @@ void input (){
     }
    } 
    cout << endl;
-   cout << "============================================"
-   cout << "===========Masukkan Element Array==========="
-   cout << "============================================"
+   cout << "============================================";
+   cout << "===========Masukkan Element Array===========";
+   cout << "============================================";
 
    for (int i = 0; i < n; i++ ){
         cout << "Data ke- " << (i+1) << ": ";
@@ -52,9 +52,9 @@ void insertionsort()
 
 void display(){
     cout << endl;
-    cout << "================="
-    cout << "\nEelement Array" << endl;
-    cout << "================="; << endl;
+    cout << "=================";
+    cout << "\nElement Array" << endl;
+    cout << "=================" << endl;
 
     for(int j = 0; j < n; j++){
         cout << arr[j] << endl;
@@ -67,5 +67,5 @@ int main()
     input();
     insertionsort();
     display();
-    system();
+    system("pause");
 }
