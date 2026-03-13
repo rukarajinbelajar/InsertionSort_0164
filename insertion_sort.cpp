@@ -9,6 +9,8 @@ void input (){
     cout << "Masukkan Jumlah Data pada Array : ";
     cin >> n;
 
-    
+    if (n <= 20){
+        break;
+    }
    } 
 }
