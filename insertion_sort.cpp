@@ -7,5 +7,8 @@ int n;
 void input (){
    while (true){
     cout << "Masukkan Jumlah Data pada Array : ";
+    cin >> n;
+
+    
    } 
 }
